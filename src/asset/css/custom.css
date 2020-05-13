@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cover_img {
+  background-image: url("../images/cover_img.jpg");
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  background: rgba(255, 255, 235, 0.5);
+}
+
+.home_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 150px;
+  height: 160px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  margin-top: 1rem;
+}
+
+.home_subtitle {
+  margin-top: 1rem;
+  font-style: italic;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.home_text {
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 4rem;
+}
+
+.home_hr {
+  background: #1b1464;
+  height: 1px;
+}
+
+#forget_password {
+  color: #00b300;
+  font-size: 16px;
+  margin-left: 45px;
+}
+
+#forget_password:hover {
+  color: #00b300;
+}
+
+.forget_text {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+/* Navbar */
+
+.navHeading {
+  margin-left: 100px;
+}
+
+.homeLi {
+  margin-right: 30px;
+  color: red;
+  text-transform: none;
+  margin-top: ;
+}
+
+.homeLi:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.nav_img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-right: 80px;
+  margin-top: 3px;
+}
+
+.userHome_div {
+  background: #e6e6e6;
+}
+
+.userImg {
+  height: 300px;
+  width: 250px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 1rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+
+.table_text {
+  padding: 12px !important;
+  /* margin-left: 6rem !important; */
+}
+
+.sidebar_menu {
+  background-color: #d9d9d9;
+}
+
+.hr_margin {
+  color: red !important;
+}
+
+.sidebarUl {
+
+  background: #404040;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.bm-item {
+  display: inline-block;
+  align-items: center;
+  margin-left: 20px;
+  background: #404040;
+  text-decoration: none;
+  margin-top: 1rem;
+  color: #737373 !important;
+  transition: color 0.2s;
+  padding: 12px;
+
+
+
+}
+
+.bm-item:hover {
+  color: green;
+  transition: 2s;
+  text-decoration: none;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 25px;
+  left: 60px;
+  top: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: red !important;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: pink;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.iconStyle {
+  color: pink;
+  margin-bottom: 5px;
+}
+
+.noticeSubTitle {
+  color: red;
+  text-decoration: none;
+}
+
+.noticeSubTitle:hover {
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: white;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.stdImg {
+  width: 180px;
+  height: 200px;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.studentProfileMargin {
+  margin-top: 2rem;
+}
+
+.borderP {
+  border: 9;
+  width: 500px;
+  height: 50px;
+}
+
+.Routinebtn {
+  margin-top: 1rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  float: right;
+  display: block;
+}
+
+
+
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width:600px) {
+  .sidebar_menu {
+    background: red;
+
+  }
+}
