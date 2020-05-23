@@ -11,8 +11,11 @@ import StudentProfile from "../../components/StudentProfile/StudentProfile";
 import ClassRoutine from "../../components/ClassRoutine/ClassRoutine";
 import Navigation from "../../components/Navigation/Navigation";
 import CourseInfo from "../../components/CourseInfo/CourseInfo";
-
 import { Navbar } from "react-bootstrap";
+import Result from "../../components/Result/Result";
+import ShowResult from "../../components/ShowResult/ShowResult";
+import Certificate from "../../components/Certificate/Certificate";
+import Library from "../../components/Library/Library";
 
 const routes = [
   {
@@ -44,6 +47,30 @@ const routes = [
     sidebar: () => <div></div>,
     main: () => <CourseInfo />,
   },
+  {
+    path: "/Result",
+    exact: true,
+    sidebar: () => <div>hell</div>,
+    main: () => <Result />,
+  },
+  {
+    path: "/ShowResult",
+    exact: true,
+    sidebar: () => <div>hell</div>,
+    main: () => <ShowResult />,
+  },
+  {
+    path: "/Certificate",
+    exact: true,
+    sidebar: () => <div>hell</div>,
+    main: () => <Certificate />,
+  },
+  {
+    path: "/Library",
+    exact: true,
+    sidebar: () => <div>hell</div>,
+    main: () => <Library />,
+  },
 ];
 
 class NavbarPage extends React.Component {
@@ -52,20 +79,11 @@ class NavbarPage extends React.Component {
       <Router>
         <Navigation fluid={true} />
 
-        <div className='side_menu' style={{ display: "flex", height: "100vh" }}>
-          <div
-            className='sidebar_menu'
-            // style={{
-            //   padding: "10px",
-            //   width: "300px",
-            // }}
-          >
+        <div className='side_menu'>
+          <div className='sidebar_menu'>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-            {/* <Navbar.Collapse id='responsive-navbar-nav'> */}
-            <ul
-              className='sidebarUl'
-              // style={{ listStyleType: "none", padding: 0 }}
-            >
+
+            <ul className='sidebarUl'>
               <NavLink to='/UserHome'>
                 <a href='#ee' className='bm-item'>
                   Home
@@ -97,25 +115,25 @@ class NavbarPage extends React.Component {
                 </a>
               </NavLink>
               <hr />
-              <NavLink to='/CourseInfo'>
+              <NavLink to='/Result'>
                 <a href='#ee' className='bm-item'>
                   Result
                 </a>
               </NavLink>
               <hr />
-              <NavLink to='/CourseInfo'>
+              <NavLink to='/Library'>
                 <a href='#ee' className='bm-item'>
                   Library
                 </a>
               </NavLink>
               <hr />
-              <NavLink to='/CourseInfo'>
+              <NavLink to='/Certificate'>
                 <a href='#ee' className='bm-item'>
                   Certificate
                 </a>
               </NavLink>
             </ul>
-            {/* </Navbar.Collapse> */}
+
             <Switch>
               {routes.map((route, index) => (
                 <Route
@@ -131,8 +149,6 @@ class NavbarPage extends React.Component {
           <div style={{ flex: 1, padding: "10px" }}>
             <Switch>
               {routes.map((route, index) => (
-                // Render more <Route>s with the same paths as
-                // above, but different components this time.
                 <Route
                   key={index}
                   path={route.path}
