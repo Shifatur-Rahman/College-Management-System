@@ -7,7 +7,9 @@ export default class StudentProfile extends Component {
     return (
       <Fragment>
         <Container fluid={true}>
-          <h1 className='title'>Student Profile</h1>
+          <Container>
+            <h1 className='title'>Student Profile</h1>
+          </Container>
 
           <Row>
             <Col sm={12} md={12} lg={8}>

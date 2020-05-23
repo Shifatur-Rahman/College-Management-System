@@ -16,7 +16,11 @@ export default class CourseInfo extends Component {
     return (
       <Fragment>
         <Container fluid={true}>
-          <h1 className='title'>Course Info</h1>
+          <Container>
+            {" "}
+            <h1 className='title'>Course Info</h1>
+          </Container>
+
           <Row>
             <Col sm={12} md={6} lg={8}>
               <Accordion defaultActiveKey='0'>

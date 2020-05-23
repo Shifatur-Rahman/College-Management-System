@@ -5,8 +5,12 @@ import userImg from "../../asset/images/shifatur_novel.jpg";
 export default function UserHome() {
   return (
     <Fragment>
-      <h1 className='title'> User Home</h1>
       <Container fluid={true} className='userHome'>
+        <Container>
+          {" "}
+          <h1 className='title'> User Home</h1>
+        </Container>
+
         <Row>
           <Col sm={12} md={6} lg={2}></Col>
           <Col sm={12} md={12} lg={8}>
