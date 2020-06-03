@@ -36,13 +36,15 @@ class Home extends React.Component {
                           </p>
 
                           <p className='home_text'>
-                            Sign in with your PAU ID & pass
+                            Sign in with your PAU id & pass
                           </p>
                           <hr className='home_hr' />
 
                           <Form id='form'>
                             <Form.Group>
-                              <Form.Label>User Id</Form.Label>
+                              <Form.Label className='formText'>
+                                User Id
+                              </Form.Label>
                               <Form.Control
                                 type='text'
                                 name='text'
@@ -51,16 +53,18 @@ class Home extends React.Component {
                               />
                             </Form.Group>
                             <Form.Group>
-                              <Form.Label>Password</Form.Label>
+                              <Form.Label className='formText'>
+                                Password
+                              </Form.Label>
                               <Form.Control
                                 type='password'
                                 name='password'
                                 placeholder='Enter your password'
+                                className='formStyle'
                               />
                             </Form.Group>
 
                             <NavLink to='/UserHome'>
-                              {" "}
                               <Button id='btn' variant='success' type='submit'>
                                 Sign in
                               </Button>

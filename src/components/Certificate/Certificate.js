@@ -6,6 +6,10 @@ export default class Certificate extends Component {
     return (
       <Fragment>
         <Container>
+          <Container>
+            {" "}
+            <h1 className='title'> Certificate</h1>
+          </Container>
           <Row>
             <Col></Col>
           </Row>
