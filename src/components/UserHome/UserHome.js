@@ -7,7 +7,6 @@ export default function UserHome() {
     <Fragment>
       <Container fluid={true} className='userHome'>
         <Container>
-          {" "}
           <h1 className='title'> User Home</h1>
         </Container>
 

@@ -11,9 +11,9 @@ export default class ClassRoutine extends Component {
           <h1 className='title'>Class Routine</h1>
           <Row>
             <Col>
-              <Container>
+              <Container className='routine'>
                 <Table striped bordered hover size='sm'>
-                  <thead>
+                  <thead className='routineTitle'>
                     <tr>
                       <th>
                         Time <FiArrowRight /> <br /> Date <IoMdArrowRoundDown />
@@ -29,7 +29,7 @@ export default class ClassRoutine extends Component {
                       <th>08:50 AM - 09:40 AM</th>
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody className='routineTime'>
                     <tr>
                       <td>Sunday</td>
                       <td></td>
