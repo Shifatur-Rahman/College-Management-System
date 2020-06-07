@@ -93,7 +93,7 @@ class NavbarPage extends React.Component {
 
               <NavLink to='/NoticePage'>
                 <a href='#ee' className='bm-item'>
-                  NoticePage
+                  Notice
                 </a>
               </NavLink>
               <hr />

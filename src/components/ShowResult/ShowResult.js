@@ -6,7 +6,10 @@ export default class ShowResult extends Component {
     return (
       <Fragment>
         <Container fluid={true}>
-          <h1 className='title'>View Result</h1>
+          <Container>
+            <h1 className='title'>View Result</h1>
+          </Container>
+
           <Row>
             <Col
               className='tableFont'

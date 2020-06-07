@@ -251,6 +251,11 @@
   margin-top: 2rem;
 }
 
+#resultFont {
+  font-size: 8px;
+  overflow: hidden;
+}
+
 .borderP {
   border: 9;
   width: 500px;
@@ -279,19 +284,20 @@
   display: block;
 }
 
-.resultPage {
+/* .resultPage {
   margin: 0 auto;
-}
+} */
 
 .select-box {
   width: 500px;
   position: relative;
+
 }
 
 .select-box select {
   height: 42px;
   padding: 10px 15px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 18px;
   width: 100%;
   border: 2px solid #ccc;
@@ -315,10 +321,9 @@
 .result-button {
   float: right;
   margin-top: 1rem;
-}
-
-.field {
-  color: red;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  width: 160px;
 }
 
 .tableFont {
@@ -348,24 +353,17 @@
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
   margin-top: 1rem;
   margin-bottom: 0;
-
-
 }
-
 
 .sidebar_menu {
   background-color: #d9d9d9;
-  /* height: 100%; */
   height: 100%;
 
 }
 
 .side_menu {
-  /* background: #e6e6e6; */
   display: flex;
   height: 100%;
-
-
 }
 
 /* /* Media Query */
@@ -453,6 +451,46 @@
     font-size: 12px;
   }
 
+  .sidebarUl {
+    width: 130px !important;
+
+
+  }
+
+  .bm-item {
+    margin-left: -5px;
+  }
+
+  .select-box {
+    width: 80px;
+    position: relative;
+    margin-right: 30px !important;
+
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+
+  .resultOption {
+    font-size: 11px;
+  }
+
+  .select-box select {
+    font-size: 13px;
+  }
+
+
+  .result-button {
+    font-size: 14px;
+    width: 70px !important;
+    margin-right: 20px;
+
+  }
+
+
+
 
 }
 
@@ -528,14 +566,37 @@
     font-size: 14px;
   }
 
-  .sidebar_menu {
-    height: 600px;
-  }
-
 
   .notice_para {
     font-size: 13px;
   }
+
+
+  .select-box {
+    width: 130px;
+    position: relative;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+
+  .resultOption {
+    font-size: 11px;
+  }
+
+  .select-box select {
+    font-size: 13px;
+  }
+
+
+  .result-button {
+    font-size: 13px;
+    width: 120px;
+
+  }
+
 
 
 
@@ -557,6 +618,55 @@
 
   .notice_para {
     font-size: 14px;
+  }
+
+  .sidebarUl {
+    width: 220px;
+
+  }
+
+  .bm-item {
+    margin-left: 30px;
+  }
+
+  .userImg {
+    height: 150px;
+    width: 130px;
+  }
+
+  .table_text {
+    font-size: 14px;
+  }
+
+
+  .notice_para {
+    font-size: 13px;
+  }
+
+
+  .select-box {
+    width: 130px;
+    position: relative;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+
+  .resultOption {
+    font-size: 11px;
+  }
+
+  .select-box select {
+    font-size: 13px;
+  }
+
+
+  .result-button {
+    font-size: 13px;
+    width: 120px;
+
   }
 
 
