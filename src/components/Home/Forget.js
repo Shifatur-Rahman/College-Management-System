@@ -11,8 +11,8 @@ class Forget extends Component {
           <div>
             <Container fluid={true}>
               <Row>
-                <Col lg={8} md={6} sm={12}></Col>
-                <Col lg={4} md={6} sm={12} className=' p-0'>
+                <Col lg={7} md={6} sm={12}></Col>
+                <Col lg={5} md={6} sm={12} className=' p-0'>
                   <div className='content'>
                     <Container>
                       <br />

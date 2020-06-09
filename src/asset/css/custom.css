@@ -83,14 +83,15 @@
 
 .homeLi {
   margin-right: 30px;
-  color: red;
+  color: #f2f2f2;
   text-transform: none;
-  margin-top: ;
+  margin-top: 4px;
 }
 
 .homeLi:hover {
   text-decoration: none;
-  color: red;
+  color: #bfbfbf;
+  transition: 1s;
 }
 
 .nav_img {
@@ -137,11 +138,11 @@
   display: inline-block;
   align-items: center;
   margin-left: 3rem;
-  background: #bfbfbf;
+  /* background: yellow; */
   text-decoration: none;
   color: #ffffff;
   /* margin-top: 1rem; */
-  color: #737373 !important;
+  color: white !important;
   transition: color 0.2s;
   padding: 10px;
   margin-bottom: 0;
@@ -344,19 +345,18 @@
 }
 
 .sidebarUl {
-  background: #bfbfbf;
+  background: #4d4d4d;
   top: 0;
   left: 0;
   width: 250px;
   height: 100vh;
-  color: #ffffff;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
   margin-top: 1rem;
   margin-bottom: 0;
 }
 
 .sidebar_menu {
-  background-color: #d9d9d9;
+  background-color: green;
   height: 100%;
 
 }
@@ -707,6 +707,32 @@
   .notice_para {
     font-size: 14px;
   }
+
+  #forget_password {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+
+  /* .formStyle {
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+  } */
+  .btn {
+    width: 68px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  #forget_password {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+
+  .content {
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 900px) {
@@ -724,11 +750,25 @@
   .notice_para {
     font-size: 15px;
   }
+
+  /* .formStyle {
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+  } */
+  .btn {
+    width: 75px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  #forget_password {
+    font-size: 16px;
+    margin-left: 5px;
+  }
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 1024px) {
-
-  /* UserHome */
+/* @media only screen and (max-width: 1200px) and (min-width: 1024px) {
   .userImg {
     height: 260px;
     width: 220px;
@@ -741,5 +781,47 @@
 
   .notice_para {
     font-size: 15px;
+  }
+}
+
+*/
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+
+  .home_title {
+    font-size: 35px;
+  }
+
+  .logo {
+    height: 200px;
+    width: 170px;
+  }
+
+  .home_subtitle {
+    font-size: 22px;
+  }
+
+  .home_text {
+    font-size: 20px;
+  }
+
+  .formStyle {
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .formText {
+    font-size: 23px;
+  }
+
+  .btn {
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  #forget_password {
+    font-size: 18px;
+    margin-left: 20px;
   }
 }

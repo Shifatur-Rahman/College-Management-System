@@ -30,27 +30,32 @@ class Navigation extends React.Component {
                   Home
                 </NavLink>
 
-                <MdNotifications
-                  className='homeLi'
-                  style={{
-                    color: "white",
-                    marginTop: "8px",
-                  }}
-                  size='20px'
-                />
-                <MdEmail
-                  style={{ color: "white", marginTop: "8px" }}
-                  className='homeLi'
-                  size='20px'
-                />
+                <a href='#'>
+                  <MdNotifications
+                    className='homeLi'
+                    style={{
+                      color: "white",
+                      marginTop: "8px",
+                    }}
+                    size='20px'
+                  />
+                </a>
+                <a>
+                  <MdEmail
+                    style={{ color: "white", marginTop: "8px" }}
+                    className='homeLi'
+                    size='20px'
+                  />
+                </a>
 
                 <TiArrowRightOutline
                   className='homeLi'
                   style={{ color: "white", marginTop: "8px" }}
                   size='20px'
                 />
-
-                <img className='nav_img' src={navImg} alt='nav_img' />
+                <a href='#'>
+                  <img className='nav_img' src={navImg} alt='nav_img' />
+                </a>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
