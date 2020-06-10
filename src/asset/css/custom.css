@@ -154,53 +154,6 @@
   text-decoration: none;
 }
 
-/* The rest copied directly from react-burger-menu docs */
-/* Position and sizing of burger button */
-.bm-burger-button {
-  position: fixed;
-  width: 30px;
-  height: 25px;
-  left: 60px;
-  top: 20px;
-}
-
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: red !important;
-}
-
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  height: 24px;
-  width: 24px;
-}
-
-/* Color/shape of close button cross */
-.bm-cross {
-  background: pink;
-}
-
-/* General sidebar styles */
-.bm-menu {
-  background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #373a47;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-}
-
-/* Styling of overlay */
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
-}
 
 .notice_para {
   font-size: 16px;
@@ -349,21 +302,20 @@
   top: 0;
   left: 0;
   width: 250px;
-  height: 100vh;
+  /* height: 100%; */
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
   margin-top: 1rem;
   margin-bottom: 0;
 }
 
-.sidebar_menu {
+/* .sidebar_menu {
   background-color: green;
-  height: 100%;
 
-}
+} */
 
 .side_menu {
   display: flex;
-  height: 100%;
+  /* height: 100%; */
 }
 
 /* /* Media Query */
@@ -434,10 +386,6 @@
     font-size: 13px;
   }
 
-  .sidebar_menu {
-    height: 100vh;
-  }
-
   .notice_para {
     font-size: 12px;
   }
@@ -453,7 +401,7 @@
 
   .sidebarUl {
     width: 130px !important;
-
+    height: 100%;
 
   }
 
@@ -472,7 +420,6 @@
     font-size: 15px;
   }
 
-
   .resultOption {
     font-size: 11px;
   }
@@ -489,9 +436,9 @@
 
   }
 
-
-
-
+  .userHome_div {
+    width: 200px;
+  }
 }
 
 
@@ -549,8 +496,8 @@
 
   /* User Home */
   .sidebarUl {
-    width: 200px;
-
+    width: 150px;
+    height: 100% !important;
   }
 
   .bm-item {
@@ -578,7 +525,8 @@
   }
 
   .title {
-    font-size: 18px;
+    font-size: 15px;
+    width: 130px;
   }
 
 
@@ -622,7 +570,7 @@
 
   .sidebarUl {
     width: 220px;
-
+    height: 100%;
   }
 
   .bm-item {
@@ -689,6 +637,11 @@
   }
 
 
+  .sidebarUl {
+    height: 100%;
+  }
+
+
 }
 
 @media only screen and (max-width: 900px) and (min-width: 768px) {
@@ -733,6 +686,11 @@
   .content {
     margin-left: 0px;
   }
+
+
+  .sidebarUl {
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 900px) {
@@ -765,6 +723,11 @@
   #forget_password {
     font-size: 16px;
     margin-left: 5px;
+  }
+
+
+  .sidebarUl {
+    height: 100%;
   }
 }
 
@@ -823,5 +786,9 @@
   #forget_password {
     font-size: 18px;
     margin-left: 20px;
+  }
+
+  .sidebarUl {
+    height: 100%;
   }
 }
