@@ -96,7 +96,7 @@ export default class ClassRoutine extends Component {
                     </tr>
                   </tbody>
                   <Button
-                    className='Routinebtn'
+                    className='RoutineBtn'
                     as='input'
                     type='submit'
                     value='Download pdf'

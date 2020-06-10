@@ -158,6 +158,7 @@
 .notice_para {
   font-size: 16px;
   padding: 12px;
+  text-align: justify;
 }
 
 .iconStyle {
@@ -168,6 +169,7 @@
 .noticeSubTitle {
   color: red;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .noticeSubTitle:hover {
@@ -205,6 +207,10 @@
   margin-top: 2rem;
 }
 
+.studentProfile {
+  font-size: 14px;
+}
+
 #resultFont {
   font-size: 8px;
   overflow: hidden;
@@ -221,21 +227,17 @@
 }
 
 .routineTime {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .routineTitle {
-  font-size: 20px;
+  font-size: 16px;
 }
 
-.Routinebtn {
+.routineBtn {
   margin-top: 1rem;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  float: right;
-  display: block;
+  font-size: 15px;
+
 }
 
 /* .resultPage {
@@ -297,25 +299,71 @@
   position: relative;
 }
 
+.personalContact {
+  width: 80%;
+  height: 40px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 13px;
+
+}
+
+.guardianContact {
+  width: 70%;
+  height: 40px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+
+}
+
+.personalContactMargin {
+  width: 80%;
+  height: 80px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-align: initial;
+
+}
+
+.personalContactTitle {
+  font-size: 13px;
+}
+
+.personalButton {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: block;
+
+}
+
+.firstPersonal {
+  font-size: 15px;
+}
+
 .sidebarUl {
   background: #4d4d4d;
   top: 0;
   left: 0;
   width: 250px;
-  /* height: 100%; */
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  height: 100vh;
   margin-top: 1rem;
   margin-bottom: 0;
 }
 
-/* .sidebar_menu {
-  background-color: green;
-
-} */
+.sidebar_menu {
+  background: #4d4d4d;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  /* height: 100vh; */
+}
 
 .side_menu {
   display: flex;
-  /* height: 100%; */
+  /* height: 100% !important; */
+  height: 100%;
 }
 
 /* /* Media Query */
@@ -383,7 +431,7 @@
   }
 
   .table_text {
-    font-size: 13px;
+    font-size: 11px !important;
   }
 
   .notice_para {
@@ -391,22 +439,30 @@
   }
 
   .routine {
-    width: 400px;
+    width: 200px;
     height: 600px;
+    margin-left: 0;
+    font-size: 5px;
+  }
+
+  .routineTime {
+    font-size: 6px;
   }
 
   .routineTitle {
-    font-size: 12px;
+    font-size: 6px;
   }
 
   .sidebarUl {
-    width: 130px !important;
-    height: 100%;
+    width: 120px !important;
+    margin-right: 0;
+    /* height: 100% !important; */
 
   }
 
   .bm-item {
     margin-left: -5px;
+    font-size: 12px;
   }
 
   .select-box {
@@ -436,9 +492,49 @@
 
   }
 
-  .userHome_div {
-    width: 200px;
+  .personalContact {
+    width: 90px;
+    height: 40px;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+    font-size: 10px;
+
   }
+
+  .guardianContact {
+    width: 90px;
+    height: 40px;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+    font-size: 10px;
+
+  }
+
+
+  .personalContactTitle {
+    font-size: 11px;
+    margin-left: 0 !important;
+  }
+
+
+  .personalContactMargin {
+    width: 90px;
+    height: 60px;
+    margin-left: 0px;
+    font-size: 11px;
+
+  }
+
+  .studentProfile {
+    font-size: 11px;
+  }
+
+
+  .firstPersonal {
+    font-size: 11px;
+  }
+
+
 }
 
 
@@ -497,11 +593,15 @@
   /* User Home */
   .sidebarUl {
     width: 150px;
-    height: 100% !important;
+  }
+
+  .userHome_div {
+    font-size: 11px !important;
   }
 
   .bm-item {
     margin-left: 30px;
+    font-size: 13px;
   }
 
   .userImg {
@@ -546,8 +646,54 @@
   }
 
 
+  .personalContact {
+    width: 90px;
+    height: 40px;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+    font-size: 10px;
+
+  }
+
+  .guardianContact {
+    width: 90px;
+    height: 40px;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+    font-size: 10px;
+
+  }
 
 
+  .personalContactTitle {
+    font-size: 11px;
+    margin-left: 0 !important;
+  }
+
+
+  .personalContactMargin {
+    width: 90px;
+    height: 60px;
+    margin-left: 0px;
+    font-size: 11px;
+
+  }
+
+  
+  .routine {
+    width: 200px;
+    height: 600px;
+    margin-left: 0;
+    font-size: 5px;
+  }
+
+  .routineTime {
+    font-size: 6px;
+  }
+
+  .routineTitle {
+    font-size: 6px;
+  }
 
 }
 
@@ -637,11 +783,6 @@
   }
 
 
-  .sidebarUl {
-    height: 100%;
-  }
-
-
 }
 
 @media only screen and (max-width: 900px) and (min-width: 768px) {
@@ -687,10 +828,10 @@
     margin-left: 0px;
   }
 
-
-  .sidebarUl {
-    height: 100%;
+  .title {
+    font-size: 18px;
   }
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 900px) {
@@ -709,11 +850,6 @@
     font-size: 15px;
   }
 
-  /* .formStyle {
-    width: 280px;
-    height: 40px;
-    font-size: 14px;
-  } */
   .btn {
     width: 75px;
     height: 40px;
@@ -725,10 +861,11 @@
     margin-left: 5px;
   }
 
-
-  .sidebarUl {
-    height: 100%;
+  .title {
+    font-size: 18px;
   }
+
+
 }
 
 /* @media only screen and (max-width: 1200px) and (min-width: 1024px) {
@@ -788,7 +925,9 @@
     margin-left: 20px;
   }
 
-  .sidebarUl {
-    height: 100%;
+  .title {
+    font-size: 18px;
+
   }
+
 }

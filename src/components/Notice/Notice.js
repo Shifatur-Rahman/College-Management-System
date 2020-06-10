@@ -30,7 +30,7 @@ export default class Notice extends Component {
                   eventKey='0'
                   className='noticeSubTitle'
                 >
-                  Information
+                  news
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey='0'>
@@ -57,7 +57,7 @@ export default class Notice extends Component {
                   variant='link'
                   eventKey='1'
                 >
-                  Click me!
+                  today
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey='1'>
@@ -84,7 +84,7 @@ export default class Notice extends Component {
                   variant='link'
                   eventKey='2'
                 >
-                  Click me!
+                  news
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey='2'>
@@ -111,7 +111,7 @@ export default class Notice extends Component {
                   variant='link'
                   eventKey='3'
                 >
-                  Click me!
+                  news
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey='3'>
