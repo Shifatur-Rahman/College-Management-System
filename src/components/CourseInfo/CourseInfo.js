@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import stdImg from "../../asset/images/shifatur_novel.jpg";
+import userImg from "../../asset/images/shifatur_novel.jpg";
 
 import {
   Container,
@@ -17,17 +17,19 @@ export default class CourseInfo extends Component {
       <Fragment>
         <Container fluid={true}>
           <Container>
-            {" "}
             <h1 className='title'>Course Info</h1>
           </Container>
-
           <Row>
-            <Col sm={12} md={6} lg={8}>
+            <Col sm={12} md={6} lg={8} className='courseInfo'>
               <Accordion defaultActiveKey='0'>
                 <Card>
                   <Card.Header>
-                    <Accordion.Toggle as={Button} variant='link' eventKey='0'>
-                      Semester- 1
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey='0'
+                      className='courseInfoHeader'
+                    >
+                      Semester-1
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey='0'>
@@ -85,7 +87,7 @@ export default class CourseInfo extends Component {
                 </Card>
                 <Card>
                   <Card.Header>
-                    <Accordion.Toggle as={Button} variant='link' eventKey='1'>
+                    <Accordion.Toggle as={Card.Header} eventKey='1'>
                       Semester-2
                     </Accordion.Toggle>
                   </Card.Header>
@@ -144,7 +146,7 @@ export default class CourseInfo extends Component {
                 </Card>
                 <Card>
                   <Card.Header>
-                    <Accordion.Toggle as={Button} variant='link' eventKey='2'>
+                    <Accordion.Toggle as={Card.Header} eventKey='2'>
                       Semester-3
                     </Accordion.Toggle>
                   </Card.Header>
@@ -203,7 +205,7 @@ export default class CourseInfo extends Component {
                 </Card>
                 <Card>
                   <Card.Header>
-                    <Accordion.Toggle as={Button} variant='link' eventKey='3'>
+                    <Accordion.Toggle as={Card.Header} eventKey='3'>
                       Semester-4
                     </Accordion.Toggle>
                   </Card.Header>
@@ -262,7 +264,7 @@ export default class CourseInfo extends Component {
                 </Card>
                 <Card>
                   <Card.Header>
-                    <Accordion.Toggle as={Button} variant='link' eventKey='5'>
+                    <Accordion.Toggle as={Card.Header} eventKey='5'>
                       Semester-5
                     </Accordion.Toggle>
                   </Card.Header>
@@ -321,7 +323,7 @@ export default class CourseInfo extends Component {
                 </Card>
                 <Card>
                   <Card.Header>
-                    <Accordion.Toggle as={Button} variant='link' eventKey='6'>
+                    <Accordion.Toggle as={Card.Header} eventKey='6'>
                       Semester-6
                     </Accordion.Toggle>
                   </Card.Header>
@@ -383,32 +385,29 @@ export default class CourseInfo extends Component {
 
             <Col sm={12} md={6} lg={4}>
               <div>
-                <img className='stdImg' src={stdImg} alt='img' />
+                <img className='userImg' src={userImg} alt='pic' />
                 <Table striped bordered hover size='sm'>
                   <tbody>
+                    <tr className='table_text'>
+                      <td className='table_text'>Name</td>
+                      <td className='table_text'>Shifatur Rahman</td>
+                    </tr>
+                    <tr className='table_text'>
+                      <td className='table_text'>Student Id</td>
+                      <td className='table_text'>161031042</td>
+                    </tr>
+
                     <tr>
-                      <td>Name</td>
-                      <td>Shifatur Rahman</td>
+                      <td className='table_text'>Year/ Semester</td>
+                      <td className='table_text' colSpan='2'>
+                        4/1
+                      </td>
                     </tr>
                     <tr>
-                      <td>Student Id</td>
-                      <td>161031042</td>
-                    </tr>
-                    <tr>
-                      <td>Dept./school</td>
-                      <td colSpan='2'>Computer Science & Engineering</td>
-                    </tr>
-                    <tr>
-                      <td>Year/ Semester</td>
-                      <td colSpan='2'>4/1</td>
-                    </tr>
-                    <tr>
-                      <td>Admitted semester</td>
-                      <td colSpan='2'>Fall, 2016</td>
-                    </tr>
-                    <tr>
-                      <td>Current enrollment status</td>
-                      <td colSpan='2'>TEMPORARY</td>
+                      <td className='table_text'>Admitted semester</td>
+                      <td className='table_text' colSpan='2'>
+                        Fall, 2016
+                      </td>
                     </tr>
                   </tbody>
                 </Table>

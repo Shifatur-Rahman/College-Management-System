@@ -357,13 +357,25 @@
 .sidebar_menu {
   background: #4d4d4d;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-  /* height: 100vh; */
 }
 
 .side_menu {
   display: flex;
-  /* height: 100% !important; */
   height: 100%;
+}
+
+.libraryChart {
+  font-size: 16px;
+}
+
+.courseInfo {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400px;
+}
+
+.courseInfoHeader {
+  font-size: 18px;
 }
 
 /* /* Media Query */
@@ -455,8 +467,6 @@
 
   .sidebarUl {
     width: 120px !important;
-    margin-right: 0;
-    /* height: 100% !important; */
 
   }
 
@@ -534,6 +544,14 @@
     font-size: 11px;
   }
 
+  .libraryChart {
+    font-size: 11px;
+  }
+
+  .courseInfo {
+    font-size: 11px;
+  }
+
 
 }
 
@@ -590,7 +608,6 @@
     margin-left: 15px;
   }
 
-  /* User Home */
   .sidebarUl {
     width: 150px;
   }
@@ -679,7 +696,7 @@
 
   }
 
-  
+
   .routine {
     width: 200px;
     height: 600px;
@@ -695,12 +712,19 @@
     font-size: 6px;
   }
 
+  .libraryChart {
+    font-size: 11px;
+  }
+
+  .courseInfo {
+    font-size: 12px;
+  }
+
 }
 
 
 @media only screen and (max-width: 600px) and (min-width: 480px) {
 
-  /* UserHome */
   .userImg {
     height: 180px;
     width: 150px;
@@ -716,7 +740,6 @@
 
   .sidebarUl {
     width: 220px;
-    height: 100%;
   }
 
   .bm-item {
@@ -763,12 +786,20 @@
 
   }
 
+  .libraryChart {
+    font-size: 12px;
+  }
+
+
+  .courseInfo {
+    font-size: 12px;
+  }
+
 
 }
 
 @media only screen and (max-width: 768px) and (min-width: 600px) {
 
-  /* UserHome */
   .userImg {
     height: 200px;
     width: 170px;
@@ -781,6 +812,16 @@
   .notice_para {
     font-size: 14px;
   }
+
+
+  .libraryChart {
+    font-size: 13px;
+  }
+
+  .courseInfo {
+    font-size: 13px;
+  }
+
 
 
 }
@@ -807,12 +848,6 @@
     margin-left: 20px;
   }
 
-
-  /* .formStyle {
-    width: 280px;
-    height: 40px;
-    font-size: 14px;
-  } */
   .btn {
     width: 68px;
     height: 40px;
@@ -831,6 +866,19 @@
   .title {
     font-size: 18px;
   }
+
+
+  .libraryChart {
+    font-size: 13px;
+  }
+
+  .courseInfo {
+   font-size: 13px;
+ }
+
+ .courseInfoHeader {
+   font-size: 15px;
+ }
 
 }
 
@@ -865,27 +913,20 @@
     font-size: 18px;
   }
 
+  .libraryChart {
+    font-size: 14px;
+  }
+
+  .courseInfo {
+    font-size: 14px;
+  }
+
+
 
 }
 
-/* @media only screen and (max-width: 1200px) and (min-width: 1024px) {
-  .userImg {
-    height: 260px;
-    width: 220px;
-  }
 
-  .table_text {
-    font-size: 16px;
-  }
-
-
-  .notice_para {
-    font-size: 15px;
-  }
-}
-
-*/
-@media screen and (max-width: 1366px) and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
   .home_title {
     font-size: 35px;
@@ -929,5 +970,18 @@
     font-size: 18px;
 
   }
+
+  .libraryChart {
+    font-size: 14px;
+  }
+
+  .courseInfo {
+    font-size: 15px;
+  }
+
+  .courseInfoHeader {
+    font-size: 16px;
+  }
+
 
 }

@@ -19,20 +19,20 @@ export default class Library extends Component {
           <Row>
             <Col sm={8} md={6} lg={6}>
               <Fieldset>
-                <legend>Serach-here</legend>
+                <legend className='libraryChart'>Serach-here</legend>
 
                 <Form>
                   <FormControl
                     type='text'
                     placeholder='Search'
-                    className='mr-sm-2'
+                    className='libraryChart mr-sm-2'
                   />
                 </Form>
               </Fieldset>
 
               <Form>
                 <fieldset>
-                  <Form.Group as={Row}>
+                  <Form.Group as={Row} className='libraryChart'>
                     <Col className='radioBtn'>
                       <a>
                         <input
@@ -41,7 +41,10 @@ export default class Library extends Component {
                           name='formHorizontalRadios'
                           id='formHorizontalRadios1'
                         />
-                        <label for='one'> Subject </label>{" "}
+                        <label className='libraryChart' for='one'>
+                          {" "}
+                          Subject{" "}
+                        </label>{" "}
                       </a>
                       <a className='radioBtnStyle'>
                         <input
@@ -50,7 +53,10 @@ export default class Library extends Component {
                           name='formHorizontalRadios'
                           id='formHorizontalRadios1'
                         />
-                        <label for='one'> Title </label>
+                        <label className='libraryChart' for='one'>
+                          {" "}
+                          Title{" "}
+                        </label>
                       </a>
                       <a className='radioBtnStyle'>
                         <input
@@ -59,7 +65,10 @@ export default class Library extends Component {
                           name='formHorizontalRadios'
                           id='formHorizontalRadios1'
                         />
-                        <label for='one'> Author </label>
+                        <label className='libraryChart' for='one'>
+                          {" "}
+                          Author{" "}
+                        </label>
                       </a>
 
                       <a className='radioBtnStyle'>
@@ -70,7 +79,10 @@ export default class Library extends Component {
                           name='formHorizontalRadios'
                           id='formHorizontalRadios1'
                         />
-                        <label for='one'> Any </label>
+                        <label className='libraryChart' for='one'>
+                          {" "}
+                          Any{" "}
+                        </label>
                       </a>
                     </Col>
                   </Form.Group>
@@ -86,7 +98,7 @@ export default class Library extends Component {
               </Form>
             </Col>
 
-            <Col sm={12} md={12} lg={12}>
+            <Col sm={12} md={12} lg={12} className='libraryChart'>
               <br />
               <Table striped bordered hover size='sm'>
                 <thead>
