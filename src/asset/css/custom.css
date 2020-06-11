@@ -138,10 +138,8 @@
   display: inline-block;
   align-items: center;
   margin-left: 3rem;
-  /* background: yellow; */
   text-decoration: none;
   color: #ffffff;
-  /* margin-top: 1rem; */
   color: white !important;
   transition: color 0.2s;
   padding: 10px;
@@ -217,32 +215,14 @@
 }
 
 .borderP {
-  border: 9;
   width: 500px;
   height: 50px;
-}
-
-.routine {
-  width: 100%;
 }
 
 .routineTime {
   font-size: 16px;
 }
 
-.routineTitle {
-  font-size: 16px;
-}
-
-.routineBtn {
-  margin-top: 1rem;
-  font-size: 15px;
-
-}
-
-/* .resultPage {
-  margin: 0 auto;
-} */
 
 .select-box {
   width: 500px;
@@ -450,24 +430,17 @@
     font-size: 12px;
   }
 
-  .routine {
-    width: 200px;
-    height: 600px;
-    margin-left: 0;
-    font-size: 5px;
+  .classRoutine {
+    font-size: 11px;
   }
 
   .routineTime {
-    font-size: 6px;
-  }
-
-  .routineTitle {
-    font-size: 6px;
+    font-size: 11px;
   }
 
   .sidebarUl {
     width: 120px !important;
-
+    height: 100%;
   }
 
   .bm-item {
@@ -552,6 +525,11 @@
     font-size: 11px;
   }
 
+  .tableFont {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
 
 }
 
@@ -610,6 +588,7 @@
 
   .sidebarUl {
     width: 150px;
+
   }
 
   .userHome_div {
@@ -669,7 +648,6 @@
     margin-left: 0px !important;
     margin-bottom: 10px;
     font-size: 10px;
-
   }
 
   .guardianContact {
@@ -696,21 +674,10 @@
 
   }
 
-
-  .routine {
-    width: 200px;
-    height: 600px;
-    margin-left: 0;
-    font-size: 5px;
-  }
-
   .routineTime {
-    font-size: 6px;
+    font-size: 11px;
   }
 
-  .routineTitle {
-    font-size: 6px;
-  }
 
   .libraryChart {
     font-size: 11px;
@@ -795,6 +762,10 @@
     font-size: 12px;
   }
 
+  .routineTime {
+    font-size: 12px;
+  }
+
 
 }
 
@@ -822,6 +793,9 @@
     font-size: 13px;
   }
 
+  .routineTime {
+    font-size: 13px;
+  }
 
 
 }
@@ -873,18 +847,26 @@
   }
 
   .courseInfo {
-   font-size: 13px;
- }
+    font-size: 13px;
+  }
 
- .courseInfoHeader {
-   font-size: 15px;
- }
+  .courseInfoHeader {
+    font-size: 15px;
+  }
+
+  .result-button {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .routineTime {
+    font-size: 14px;
+  }
+
 
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 900px) {
-
-  /* UserHome */
   .userImg {
     height: 240px;
     width: 200px;
@@ -921,10 +903,14 @@
     font-size: 14px;
   }
 
+  .result-button {
+    font-size: 15px;
+    width: 155px;
+  }
+
 
 
 }
-
 
 @media screen and (min-width: 1024px) {
 
@@ -981,6 +967,11 @@
 
   .courseInfoHeader {
     font-size: 16px;
+  }
+
+  .result-button {
+    font-size: 16px;
+    width: 160px;
   }
 
 

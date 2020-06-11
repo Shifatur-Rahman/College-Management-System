@@ -1,15 +1,7 @@
 import React, { Component, Fragment } from "react";
 import userImg from "../../asset/images/shifatur_novel.jpg";
 
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  Accordion,
-  Button,
-  Table,
-} from "react-bootstrap";
+import { Container, Row, Col, Card, Accordion, Table } from "react-bootstrap";
 
 export default class CourseInfo extends Component {
   render() {

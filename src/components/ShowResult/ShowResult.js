@@ -18,27 +18,25 @@ export default class ShowResult extends Component {
               sm={{ span: 12, offset: 12 }}
             >
               <Table striped bordered hover size='sm'>
-                <tbody>
-                  <tr>
-                    <td className='borderP'>Student Name</td>
-                    <td className='borderP'>Md. Zunaid Ali </td>
+                <tbody className='borderP'>
+                  <tr className='borderP'>
+                    <td>Student Name</td>
+                    <td>Md. Zunaid Ali </td>
                   </tr>
-                  <tr>
-                    <td className='borderP'>Registration Number </td>
-                    <td className='borderP'>160205157</td>
+                  <tr className='borderP'>
+                    <td>Registration Number </td>
+                    <td>160205157</td>
                   </tr>
-                  <tr>
-                    <td className='borderP'>Program</td>
-                    <td className='borderP'>
+                  <tr className='borderP'>
+                    <td>Program</td>
+                    <td>
                       Bachelor of Science in Electrical and Electronic
                       Engineering
                     </td>
                   </tr>
-                  <tr>
-                    <td className='borderP'>Department/School</td>
-                    <td className='borderP'>
-                      Department of Electrical and Electronic Engineering
-                    </td>
+                  <tr className='borderP'>
+                    <td>Department/School</td>
+                    <td>Department of Electrical and Electronic Engineering</td>
                   </tr>
                 </tbody>
               </Table>
